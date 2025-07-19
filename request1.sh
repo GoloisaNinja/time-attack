@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -H "Content-Type: application/json" -d '{"post": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAAABBBCCC"}' -o /dev/null -s -w "@curl-timing.txt" -X GET http://localhost:5000/api/posts

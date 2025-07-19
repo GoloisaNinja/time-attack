@@ -1,0 +1,19 @@
+{
+	"name": "time-api",
+	"version": "1.0.0",
+	"description": "basic time attack example api",
+	"main": "server.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon server.js",
+		"start": "node server.js"
+	},
+	"author": "Jon Collins",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2",
+		"nodemon": "^3.1.0"
+	}
+}
