@@ -1,0 +1,3 @@
+curl -H "Content-Type: application/json" -d @postSearch1.json -o /dev/null -s -w "@curl-timing.txt" -X GET http://localhost:5000/api/posts
+curl -H "Content-Type: application/json" -d @postSearch2.json -o /dev/null -s -w "@curl-timing.txt" -X GET http://localhost:5000/api/posts
+curl -H "Content-Type: application/json" -d @postSearch3.json -o /dev/null -s -w "@curl-timing.txt" -X GET http://localhost:5000/api/posts
